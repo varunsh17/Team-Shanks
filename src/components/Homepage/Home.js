@@ -1,9 +1,10 @@
 import React from 'react'
-
+import Fotter from "../Fotter/Fotter"
 function Home() {
     return (
         <div>
-            this is homepage
+
+            <Fotter/>
         </div>
     )
 }
