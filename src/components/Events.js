@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Eventp() {
+function Events() {
     return (
         <div>
-            EVENT PAGE
+            events
         </div>
     )
 }
 
-export default Eventp
+export default Events

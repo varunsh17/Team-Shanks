@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* HOMEPAGE CSS */
+  
+  .body {
+    margin: 0;
+    overflow: hidden;
+    height: 100vh;
+    background-image: url("./img/rain.jpg");
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .another1 {
+    position: absolute;
+    margin: 0;
+    overflow: hidden;
+    height: 93.5vh;
+    background: url("./img/play.jpg");
+    top: 0;
+    left: 25vw;
+    width: 48vw;
+    object-fit: contain;
+    background-size: cover;
+    background-position: center;
+  }
+  @media (max-width: 830px) {
+    .another1 {
+      /* CHANGED THE WIDTH FOR MOBILE SCREEN - VARUN */
+      width: 98%;
+      left: 1%;
+    }
+  }
+  /* IT ENDS */
+  
+  .drop {
+    position: absolute;
+    bottom: 100%;
+    animation: drop 1.2s linear infinite;
+  }
+  .stem {
+    width: 2px;
+    height: 50px;
+    margin-left: 10px;
+    background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0),
+      rgba(255, 253, 253, 0.711)
+    );
+    animation: stem 1.2s linear infinite;
+  }
+  
+  @keyframes drop {
+    0% {
+      transform: translateY(0vh);
+    }
+    75% {
+      transform: translateY(100vh);
+    }
+    100% {
+      transform: translateY(100vh);
+    }
+  }
+  @keyframes stem {
+    0% {
+      opacity: 1;
+    }
+    60% {
+      opacity: 1;
+    }
+    70% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }

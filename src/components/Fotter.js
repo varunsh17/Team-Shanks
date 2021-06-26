@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Fotter.css"
+import "./fotter.css"
 function Fotter() {
     return (
         <div className="footer-all">
