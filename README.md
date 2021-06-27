@@ -14,6 +14,8 @@ The dependencies we are going to use :-
 3- React-Router-Dom
 4- react-scroll
 5- vanilla-tilt
+6- styled-components 
+7- font-awesome
 
 """
 Baically , we arelike a company that organises games and tournaments of E-sports ..
