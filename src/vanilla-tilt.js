@@ -1,5 +1,5 @@
 var VanillaTilt = (function () {
-'use strict';
+// 'use strict';
 
 /**
  * Created by Sergiu Șandor (micku7zu) on 1/27/2017.
@@ -10,9 +10,9 @@ var VanillaTilt = (function () {
 
 class VanillaTilt {
   constructor(element, settings = {}) {
-    if (!(element instanceof Node)) {
-      throw ("Can't initialize VanillaTilt because " + element + " is not a Node.");
-    }
+    // if (!(element instanceof Node)) {
+    //   throw ("Can't initialize VanillaTilt because " + element + " is not a Node.");
+    // }
 
     this.width = null;
     this.height = null;
