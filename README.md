@@ -16,5 +16,7 @@ The dependencies we are going to use :-
 5- vanilla-tilt
 
 """
-Baically , we arelike a company that organises games and tournaments of E-sports .
-"""
+Baically , we arelike a company that organises games and tournaments of E-sports ..
+We focus on bringing people of different community towards games ..
+For running it into localhost of your computer please write npm install before npm start :)
+""" 
